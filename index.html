@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flavor Lab</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">
+    <img src="icon.png" alt="Flavor Lab">
+  </div>
+
+  <div class="icon" onclick="toggleMenu()">☰</div>
+
+  <nav class="nav" id="nav">
+    <a onclick="showPage('home', this)" class="active">Home</a>
+    <a onclick="showPage('contact', this)">Contact</a>
+    <a onclick="showPage('about', this)">About</a>
+  </nav>
+</header>
+
+<main class="container">
+
+  <section id="home" class="page">
+    <h1>Welcome to Flavor Lab 🍹</h1>
+    <p>Discover amazing flavors and drinks.</p>
+  </section>
+
+  <section id="contact" class="page hidden">
+    <h1>Contact</h1>
+    <p>WhatsApp: 79353275</p>
+    <p><a href="#">Instagram</a></p>
+  </section>
+
+  <section id="about" class="page hidden">
+    <h1>About</h1>
+    <p>We create unique taste experiences.</p>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Flavor Lab. All Rights Reserved.</p>
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

@@ -21,6 +21,7 @@ body {
   justify-content: space-between;
   padding: 30px 20px;
   position: relative;
+  gap:10px;
 }
 
 
@@ -103,4 +104,11 @@ footer {
   color: white;
   text-align: center;
   padding: 15px;
+}
+
+.brand {
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  color: #e63946;
+  margin-left: 10px;
 }
